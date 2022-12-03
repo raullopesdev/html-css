@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonte em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas absolutas:
+            cm, mm, in, px, pt, pc
+
+            Medidas relativas:
+            em, ex, rem, vw, vh, %
+
+            16px geralmente = 1em
+            */
+            /* lighter normal bold bolder 
+                pesos numéricos = 100 à 900
+            */
+        }
+
+        h1 {
+            /*
+            font-family: "Work Sans", sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            /* 
+            shorthand font
+            font-style -> font-weight -> font-size -> font-family
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse magni saepe architecto doloribus nemo provident, at minima quis quaerat voluptate! Voluptatum accusamus animi repudiandae. Maxime dicta voluptatem ea incidunt voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis expedita temporibus odio tempora recusandae saepe ea itaque odit eveniet ex quisquam laborum explicabo, suscipit officia, molestiae ab esse reprehenderit! Quia.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quasi perspiciatis rem soluta, id recusandae omnis quibusdam labore culpa veritatis unde modi nobis magnam, alias ipsum, cupiditate ullam consectetur hic?</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla dolorem aspernatur totam blanditiis ipsum pariatur nesciunt veniam, voluptates minus alias, voluptatem reprehenderit rem labore ut! Fugiat dicta recusandae ea accusamus!</p>
+</body>
+</html>
